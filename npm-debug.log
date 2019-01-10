@@ -1,0 +1,318 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'node@10.8.0' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData node@10.8.0
+8 silly fetchNamedPackageData node
+9 silly mapToRegistry name node
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'node',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'node',
+12 silly mapToRegistry   name: 'node',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 verbose request uri https://registry.npmjs.org/node
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:59:01 PM
+17 verbose request id f62649b6d35dc4eb
+18 verbose etag W/"fcc440f0f9223908d781326929bc757f"
+19 verbose lastModified Thu, 02 Aug 2018 03:42:35 GMT
+20 http request GET https://registry.npmjs.org/node
+21 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 104.16.24.35:443
+22 info attempt registry request try #2 at 11:59:33 PM
+23 verbose etag W/"fcc440f0f9223908d781326929bc757f"
+24 verbose lastModified Thu, 02 Aug 2018 03:42:35 GMT
+25 http request GET https://registry.npmjs.org/node
+26 http 200 https://registry.npmjs.org/node
+27 verbose headers { date: 'Thu, 10 Jan 2019 22:58:09 GMT',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'transfer-encoding': 'chunked',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'set-cookie': [ '__cfduid=daf5bb673b8fb8eacb228a12eb233b19d1547161089; expires=Fri, 10-Jan-20 22:58:09 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+27 verbose headers   'cf-cache-status': 'HIT',
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   'cf-ray': '4972bf2b3d7fc859-AMS',
+27 verbose headers   etag: 'W/"e8fbe052b71156cb2128a9078f30ca2c"',
+27 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 verbose headers   'last-modified': 'Fri, 04 Jan 2019 22:27:30 GMT',
+27 verbose headers   vary: 'accept-encoding, accept',
+27 verbose headers   'x-amz-meta-rev': '456-5e2dfae2d3af1893c1d850607077db33',
+27 verbose headers   server: 'cloudflare',
+27 verbose headers   'content-encoding': 'gzip' }
+28 silly get cb [ 200,
+28 silly get   { date: 'Thu, 10 Jan 2019 22:58:09 GMT',
+28 silly get     'content-type': 'application/json',
+28 silly get     'transfer-encoding': 'chunked',
+28 silly get     connection: 'keep-alive',
+28 silly get     'set-cookie': [ '__cfduid=daf5bb673b8fb8eacb228a12eb233b19d1547161089; expires=Fri, 10-Jan-20 22:58:09 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+28 silly get     'cf-cache-status': 'HIT',
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     'cf-ray': '4972bf2b3d7fc859-AMS',
+28 silly get     etag: 'W/"e8fbe052b71156cb2128a9078f30ca2c"',
+28 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+28 silly get     'last-modified': 'Fri, 04 Jan 2019 22:27:30 GMT',
+28 silly get     vary: 'accept-encoding, accept',
+28 silly get     'x-amz-meta-rev': '456-5e2dfae2d3af1893c1d850607077db33',
+28 silly get     server: 'cloudflare',
+28 silly get     'content-encoding': 'gzip' } ]
+29 verbose get saving node to C:\Users\Akita\AppData\Roaming\npm-cache\registry.npmjs.org\node\.cache.json
+30 verbose correctMkdir C:\Users\Akita\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+31 silly install normalizeTree
+32 silly loadCurrentTree Finishing
+33 silly loadIdealTree Starting
+34 silly install loadIdealTree
+35 silly cloneCurrentTree Starting
+36 silly install cloneCurrentTreeToIdealTree
+37 silly cloneCurrentTree Finishing
+38 silly loadShrinkwrap Starting
+39 silly install loadShrinkwrap
+40 silly loadShrinkwrap Finishing
+41 silly loadAllDepsIntoIdealTree Starting
+42 silly install loadAllDepsIntoIdealTree
+43 silly resolveWithNewModule node@10.8.0 checking installable status
+44 silly cache add args [ 'node@10.8.0', null ]
+45 verbose cache add spec node@10.8.0
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'node@10.8.0',
+46 silly cache add   scope: null,
+46 silly cache add   escapedName: 'node',
+46 silly cache add   name: 'node',
+46 silly cache add   rawSpec: '10.8.0',
+46 silly cache add   spec: '10.8.0',
+46 silly cache add   type: 'version' }
+47 silly addNamed node@10.8.0
+48 verbose addNamed "10.8.0" is a plain semver version for node
+49 silly mapToRegistry name node
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry data Result {
+52 silly mapToRegistry   raw: 'node',
+52 silly mapToRegistry   scope: null,
+52 silly mapToRegistry   escapedName: 'node',
+52 silly mapToRegistry   name: 'node',
+52 silly mapToRegistry   rawSpec: '',
+52 silly mapToRegistry   spec: 'latest',
+52 silly mapToRegistry   type: 'tag' }
+53 silly mapToRegistry uri https://registry.npmjs.org/node
+54 verbose addNameVersion registry:https://registry.npmjs.org/node not in flight; fetching
+55 verbose get https://registry.npmjs.org/node not expired, no request
+56 silly cache afterAdd node@10.8.0
+57 verbose afterAdd C:\Users\Akita\AppData\Roaming\npm-cache\node\10.8.0\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\Akita\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\Akita\AppData\Roaming\npm-cache\node\10.8.0\package\package.json written
+60 silly fetchNamedPackageData node-bin-setup
+61 silly mapToRegistry name node-bin-setup
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'node-bin-setup',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'node-bin-setup',
+64 silly mapToRegistry   name: 'node-bin-setup',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+66 verbose request uri https://registry.npmjs.org/node-bin-setup
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 11:59:38 PM
+69 verbose etag W/"696d6ec470fda56a33885508a280edab"
+70 verbose lastModified Sun, 27 May 2018 09:55:03 GMT
+71 http request GET https://registry.npmjs.org/node-bin-setup
+72 http 304 https://registry.npmjs.org/node-bin-setup
+73 verbose headers { date: 'Thu, 10 Jan 2019 22:58:11 GMT',
+73 verbose headers   connection: 'keep-alive',
+73 verbose headers   'set-cookie': [ '__cfduid=d47ecc4d8f3d2bb22ee9941f896508e341547161091; expires=Fri, 10-Jan-20 22:58:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+73 verbose headers   'cf-cache-status': 'HIT',
+73 verbose headers   'cache-control': 'max-age=300',
+73 verbose headers   'cf-ray': '4972bf355c78c859-AMS',
+73 verbose headers   etag: '"696d6ec470fda56a33885508a280edab"',
+73 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 verbose headers   'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+73 verbose headers   vary: 'accept-encoding, accept',
+73 verbose headers   server: 'cloudflare' }
+74 silly get cb [ 304,
+74 silly get   { date: 'Thu, 10 Jan 2019 22:58:11 GMT',
+74 silly get     connection: 'keep-alive',
+74 silly get     'set-cookie': [ '__cfduid=d47ecc4d8f3d2bb22ee9941f896508e341547161091; expires=Fri, 10-Jan-20 22:58:11 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+74 silly get     'cf-cache-status': 'HIT',
+74 silly get     'cache-control': 'max-age=300',
+74 silly get     'cf-ray': '4972bf355c78c859-AMS',
+74 silly get     etag: '"696d6ec470fda56a33885508a280edab"',
+74 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+74 silly get     'last-modified': 'Sun, 27 May 2018 09:55:03 GMT',
+74 silly get     vary: 'accept-encoding, accept',
+74 silly get     server: 'cloudflare' } ]
+75 verbose etag https://registry.npmjs.org/node-bin-setup from cache
+76 verbose get saving node-bin-setup to C:\Users\Akita\AppData\Roaming\npm-cache\registry.npmjs.org\node-bin-setup\.cache.json
+77 verbose correctMkdir C:\Users\Akita\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+78 silly resolveWithNewModule node-bin-setup@1.0.6 checking installable status
+79 silly cache add args [ 'node-bin-setup@^1.0.0', null ]
+80 verbose cache add spec node-bin-setup@^1.0.0
+81 silly cache add parsed spec Result {
+81 silly cache add   raw: 'node-bin-setup@^1.0.0',
+81 silly cache add   scope: null,
+81 silly cache add   escapedName: 'node-bin-setup',
+81 silly cache add   name: 'node-bin-setup',
+81 silly cache add   rawSpec: '^1.0.0',
+81 silly cache add   spec: '>=1.0.0 <2.0.0',
+81 silly cache add   type: 'range' }
+82 silly addNamed node-bin-setup@>=1.0.0 <2.0.0
+83 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for node-bin-setup
+84 silly addNameRange { name: 'node-bin-setup',
+84 silly addNameRange   range: '>=1.0.0 <2.0.0',
+84 silly addNameRange   hasData: false }
+85 silly mapToRegistry name node-bin-setup
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'node-bin-setup',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'node-bin-setup',
+88 silly mapToRegistry   name: 'node-bin-setup',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/node-bin-setup
+90 verbose addNameRange registry:https://registry.npmjs.org/node-bin-setup not in flight; fetching
+91 verbose get https://registry.npmjs.org/node-bin-setup not expired, no request
+92 silly addNameRange number 2 { name: 'node-bin-setup',
+92 silly addNameRange   range: '>=1.0.0 <2.0.0',
+92 silly addNameRange   hasData: true }
+93 silly addNameRange versions [ 'node-bin-setup',
+93 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.6' ] ]
+94 silly addNamed node-bin-setup@1.0.6
+95 verbose addNamed "1.0.6" is a plain semver version for node-bin-setup
+96 silly cache afterAdd node-bin-setup@1.0.6
+97 verbose afterAdd C:\Users\Akita\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package\package.json not in flight; writing
+98 verbose correctMkdir C:\Users\Akita\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+99 verbose afterAdd C:\Users\Akita\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package\package.json written
+100 silly loadAllDepsIntoIdealTree Finishing
+101 silly loadIdealTree Finishing
+102 silly currentTree express@1.0.0
+103 silly idealTree express@1.0.0
+103 silly idealTree `-- node@10.8.0
+103 silly idealTree   `-- node-bin-setup@1.0.6
+104 silly generateActionsToTake Starting
+105 silly install generateActionsToTake
+106 silly generateActionsToTake Finishing
+107 silly diffTrees action count 2
+108 silly diffTrees add node-bin-setup@1.0.6
+109 silly diffTrees add node@10.8.0
+110 silly decomposeActions action count 16
+111 silly decomposeActions fetch node-bin-setup@1.0.6
+112 silly decomposeActions extract node-bin-setup@1.0.6
+113 silly decomposeActions test node-bin-setup@1.0.6
+114 silly decomposeActions preinstall node-bin-setup@1.0.6
+115 silly decomposeActions build node-bin-setup@1.0.6
+116 silly decomposeActions install node-bin-setup@1.0.6
+117 silly decomposeActions postinstall node-bin-setup@1.0.6
+118 silly decomposeActions finalize node-bin-setup@1.0.6
+119 silly decomposeActions fetch node@10.8.0
+120 silly decomposeActions extract node@10.8.0
+121 silly decomposeActions test node@10.8.0
+122 silly decomposeActions preinstall node@10.8.0
+123 silly decomposeActions build node@10.8.0
+124 silly decomposeActions install node@10.8.0
+125 silly decomposeActions postinstall node@10.8.0
+126 silly decomposeActions finalize node@10.8.0
+127 silly runTopLevelLifecycles Starting
+128 silly executeActions Starting
+129 silly install executeActions
+130 silly doSerial global-install 0
+131 silly doParallel fetch 2
+132 verbose correctMkdir C:\Users\Akita\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+133 verbose lock using C:\Users\Akita\AppData\Roaming\npm-cache\_locks\staging-bf0d62124be66e33.lock for C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging
+134 silly doParallel extract 2
+135 silly extract node-bin-setup@1.0.6
+136 silly extract node@10.8.0
+137 verbose unbuild node_modules\.staging\node-bin-setup-497f19f8
+138 verbose unbuild node_modules\.staging\node-3263bf9a
+139 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8 is being purged from base C:\Users\Akita\Desktop\Node\iExpress
+140 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8
+141 verbose tar unpack C:\Users\Akita\AppData\Roaming\npm-cache\node-bin-setup\1.0.6\package.tgz
+142 verbose tar unpacking to C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8
+143 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8 is being purged
+144 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8
+145 silly gunzTarPerm modes [ '777', '666' ]
+146 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a is being purged from base C:\Users\Akita\Desktop\Node\iExpress
+147 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a
+148 verbose tar unpack C:\Users\Akita\AppData\Roaming\npm-cache\node\10.8.0\package.tgz
+149 verbose tar unpacking to C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a
+150 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a is being purged
+151 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a
+152 silly gunzTarPerm modes [ '777', '666' ]
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+155 silly gunzTarPerm extractEntry package.json
+156 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+157 silly gunzTarPerm extractEntry index.js
+158 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry installArchSpecificPackage.js
+160 silly gunzTarPerm modified mode [ 'installArchSpecificPackage.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry README.md
+162 silly gunzTarPerm modif
+163 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-sied mode [ 'README.md', 420, 438 ]etup-497f19f8\node_modules is being purged
+164 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8\node_modules
+165 silly gentlyRm C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a\node_modules is being purged
+166 verbose gentlyRm don't care about contents; nuking C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a\node_modules
+167 silly doParallel preinstall 2
+168 silly preinstall node-bin-setup@1.0.6 C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-bin-setup-497f19f8
+169 info lifecycle node-bin-setup@1.0.6~preinstall: node-bin-setup@1.0.6
+170 silly preinstall node@10.8.0 C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a
+171 info lifecycle node@10.8.0~preinstall: node@10.8.0
+172 silly lifecycle node-bin-setup@1.0.6~preinstall: no script for preinstall, continuing
+173 verbose lifecycle node@10.8.0~preinstall: unsafe-perm in lifecycle true
+174 verbose lifecycle node@10.8.0~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a\node_modules\.bin;C:\Users\Akita\Desktop\Node\iExpress\node_modules\.bin;C:\Program Files\nodejs;C:\Users\Akita\AppData\Local\Programs\Python\Python37-32;C:\Program Files\Microsoft VS Code\bin;C:\Windows\System32;C:\Program Files\Git\bin;C:\Program Files\nodejs;C:\Users\Akita\AppData\Local\Programs\Python\Python37-32;C:\Program Files\Microsoft VS Code\bin;C:\Users\Akita\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;C:\Program Files\Git\bin
+175 verbose lifecycle node@10.8.0~preinstall: CWD: C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging\node-3263bf9a
+176 silly lifecycle node@10.8.0~preinstall: Args: [ '/d /s /c', 'node installArchSpecificPackage' ]
+177 silly lifecycle node@10.8.0~preinstall: Returned: code: 1  signal: null
+178 info lifecycle node@10.8.0~preinstall: Failed to exec preinstall script
+179 verbose unlock done using C:\Users\Akita\AppData\Roaming\npm-cache\_locks\staging-bf0d62124be66e33.lock for C:\Users\Akita\Desktop\Node\iExpress\node_modules\.staging
+180 silly rollbackFailedOptional Starting
+181 silly rollbackFailedOptional Finishing
+182 silly runTopLevelLifecycles Finishing
+183 silly install printInstalled
+184 verbose stack Error: node@10.8.0 preinstall: `node installArchSpecificPackage`
+184 verbose stack Exit status 1
+184 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+184 verbose stack     at emitTwo (events.js:106:13)
+184 verbose stack     at EventEmitter.emit (events.js:191:7)
+184 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+184 verbose stack     at emitTwo (events.js:106:13)
+184 verbose stack     at ChildProcess.emit (events.js:191:7)
+184 verbose stack     at maybeClose (internal/child_process.js:877:16)
+184 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+185 verbose pkgid node@10.8.0
+186 verbose cwd C:\Users\Akita\Desktop\Node\iExpress
+187 error Windows_NT 10.0.16299
+188 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "-g" "node@10.8.0"
+189 error node v6.9.4
+190 error npm  v3.10.10
+191 error code ELIFECYCLE
+192 error node@10.8.0 preinstall: `node installArchSpecificPackage`
+192 error Exit status 1
+193 error Failed at the node@10.8.0 preinstall script 'node installArchSpecificPackage'.
+193 error Make sure you have the latest version of node.js and npm installed.
+193 error If you do, this is most likely a problem with the node package,
+193 error not with npm itself.
+193 error Tell the author that this fails on your system:
+193 error     node installArchSpecificPackage
+193 error You can get information on how to open an issue for this project with:
+193 error     npm bugs node
+193 error Or if that isn't available, you can get their info via:
+193 error     npm owner ls node
+193 error There is likely additional logging output above.
+194 verbose exit [ 1, true ]
