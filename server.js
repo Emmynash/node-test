@@ -42,9 +42,9 @@ app.get('/bad', (req, res) => {
     });
 });
 
-app.listen(port, (error, res) => {
+app.listen(port, (error) => {
     if (error) {
-        console.log(`Sever unable to start ${error}`);
+        console.log(`Sever unable to start on port: ${error}`);
     } else {
         console.log(`Sever running on port: ${port}`);
     }
