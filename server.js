@@ -1,6 +1,6 @@
 const expres = require('express');
 const app = expres();
-const port = 8080;
+const port = process.env.PORT || 8080;
 const hbs = require('hbs');
 const fs = require('fs');
 
